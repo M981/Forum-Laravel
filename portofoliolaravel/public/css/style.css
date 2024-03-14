@@ -1,0 +1,368 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #212529;
+    display: flex; 
+    justify-content: center; 
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+.header-link {
+    font-family: 'Rubik', 'Segoe UI', sans-serif;
+}
+
+li {
+    float: left;
+}
+ 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+
+#welkom {
+    text-align: left;
+    font-size: 2vw;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-family: 'Rubik', 'Segoe UI', sans-serif;
+}
+
+.kopjes {
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-family: 'Rubik', 'Segoe UI', sans-serif;
+}
+
+.koptekst {
+    color: white;
+    text-align: center;
+    font-size: 1.2vw; 
+    margin-top: 100px; 
+    font-weight: 400;
+    font-family: 'Rubik', 'Segoe UI', sans-serif;
+    max-width: 75vw; 
+}
+
+.subheader {
+    color: white;
+    text-align: center;
+    font-size: 1.5vw;
+    margin-top: 5vw;
+    font-weight: 600;
+    font-family: 'Rubik', 'Segoe UI', sans-serif;
+    font-style: italic;
+}
+
+#datumcv {
+    color: white;
+    text-align: center;
+    font-size: 1.1vw;
+    margin-top: 1vw;
+    font-weight: 500;
+    font-family: 'Rubik', 'Segoe UI', sans-serif;
+}
+
+#functie
+{
+    color: white;
+    text-align: center;
+    font-size: 1.0vw; 
+    margin-top: 1px; 
+    font-weight: 400;
+    font-family: 'Rubik', 'Segoe UI', sans-serif;
+    max-width: 75vw; 
+}
+
+.koptekstcv {
+    color: white;
+    text-align: center;
+    font-size: 1.0vw; 
+    margin-top: 10px; 
+    font-weight: 400;
+    font-family: 'Rubik', 'Segoe UI', sans-serif;
+    max-width: 75vw; 
+}
+
+#smallinfo {
+    margin-top: 5px; 
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-family: Arial;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 5%;
+    width: 500px;
+}
+
+.icon {
+    border: 2px solid #212529;
+    width: 35px;
+    height: 35px;
+}
+
+.text-box {
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 60px;
+    box-sizing: border-box;
+    height: 750px;
+}
+
+.second-box {
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 1px;
+    box-sizing: border-box;
+    height: 750px;
+}
+
+.third-box {
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 1px;
+    box-sizing: border-box;
+    height: 1100px;
+}
+
+.contact-box {
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 1px;
+    box-sizing: border-box;
+    height: 1000px;
+}
+
+form {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    margin-top: 50px;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+#bericht {
+    resize: vertical;
+    max-height: 300px;
+}
+form h3 {
+    color: #555;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input, form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+}
+
+form button {
+    padding: 15px;
+    background-color: rgb(68,82,209);
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto;
+    border-radius: 30px;    
+}
+::-webkit-scrollbar {
+    width: 10px; 
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: rgb(54, 54, 54);
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.my-skills {
+    font-family: 'Rubik', 'Segoe UI', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 220px;
+}
+
+.skill-row {
+    display: flex;
+    text-align: center;
+}
+
+.skill-item {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.skills-p {
+    font-family: 'Rubik', 'Segoe UI', sans-serif;
+    font-weight: 600;
+    text-align: left;
+}
+
+.containerskills {
+    width: 50%;
+    border-radius: 20px;
+    background-color: #575757;
+    overflow: hidden;
+}
+
+.html {
+    width: 50%;
+    background-color: white
+}
+
+.css {
+    width: 50%;
+    background-color: white
+}
+
+.lua {
+    width: 85%;
+    background-color: white
+}
+
+.mysql {
+    width: 70%;
+    background-color: white
+}
+
+.slideshow-container {
+  position: relative;
+  background: #212529;
+}
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #212529;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: white
+}
+
+.projectlink-button {
+    display: inline-block;
+    background-color: rgb(68,82,209);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    transition: background-color 0.3s ease;
+    font-size: 1.5vw;
+    font-weight: 600;
+    font-family: 'Rubik', 'Segoe UI', sans-serif;
+    font-style: italic;
+    color: white;
+}
+
+.projectlink-button:hover {
+    background-color: rgb(126, 134, 208);
+}
+
+#figmaembed {
+    height: 20vw
+}

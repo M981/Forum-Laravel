@@ -1,3 +1,11 @@
+<?php
+
+use App\Models\Review;
+
+
+$reviews = Review::all(); 
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +13,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohammed Alfa Portofolio</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -167,6 +177,21 @@
                 </form> 
             </p>
         </section>
+    </div>
+    <div class="container">
+        <h1>Reviews</h1>
+        <div class="row">
+            @foreach($reviews as $review)
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ $review->title }}</h5>
+                            <p class="card-text">{{ $review->content }}</p>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+        </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
